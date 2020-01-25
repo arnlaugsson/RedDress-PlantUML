@@ -92,6 +92,8 @@ skinparam backgroundColor 777
 !function basic_style()
   backgroundColor BOXBG
   borderColor BORDERCOLOR
+  activityDiamondBackgroundColor BOXBG
+  activityDiamondBorderColor BORDERCOLOR
 !endfunction
 
 !function accent_style()
@@ -175,8 +177,6 @@ skinparam activity {
   basic_style()
   font_style()
   arrow_style()
-  activityDiamondBackgroundColor BOXBG
-  activityDiamondBorderColor BORDERCOLOR
 }
 
 skinparam sequence {
@@ -208,8 +208,6 @@ skinparam state {
   basic_style()
   font_style()
   arrow_style()
-  activityDiamondBackgroundColor BOXBG
-  activityDiamondBorderColor BORDERCOLOR
   startColor ACCENT
   endColor ACCENTDARK
 }
