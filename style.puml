@@ -231,6 +231,14 @@ skinparam cloud {
   arrow_style()
 }
 
+skinparam decision {
+  basic_style()
+  font_style()
+  
+  activityDiamondBackgroundColor BOXBG
+  activityDiamondBorderColor BORDERCOLOR
+}
+
 skinparam rectangle {
   basic_style()
   font_style()
